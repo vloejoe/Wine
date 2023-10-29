@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "Nom": "Odika",
+        "Ville": "Akanda",
+        "Itineraire": "A coté de l'aéroport",
+        "Categorie": "Restaurant",
+        "Prix_moyen": 20000,
+        "Maps_url": "#",
+        "Description": "Commodo dolor mollit ad non eiusmod labore ad.",
+        "createdAt": "2023-09-09T12:11:41.794Z",
+        "updatedAt": "2023-09-09T22:42:48.170Z",
+        "publishedAt": "2023-09-09T12:12:44.931Z"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Nom": "Nomad",
+        "Ville": "Akanda",
+        "Itineraire": null,
+        "Categorie": "Hotel",
+        "Prix_moyen": 20000,
+        "Maps_url": null,
+        "Description": null,
+        "createdAt": "2023-09-09T13:45:58.461Z",
+        "updatedAt": "2023-09-09T22:43:35.176Z",
+        "publishedAt": "2023-09-09T22:43:35.175Z"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "Nom": "Adresse",
+        "Ville": null,
+        "Itineraire": null,
+        "Categorie": null,
+        "Prix_moyen": null,
+        "Maps_url": null,
+        "Description": null,
+        "createdAt": "2023-09-09T22:58:59.156Z",
+        "updatedAt": "2023-09-09T23:00:13.596Z",
+        "publishedAt": "2023-09-09T23:00:13.594Z"
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "Nom": "Autre Adresse",
+        "Ville": "Akanda",
+        "Itineraire": null,
+        "Categorie": "Bar",
+        "Prix_moyen": 15000,
+        "Maps_url": null,
+        "Description": null,
+        "createdAt": "2023-09-11T16:13:34.910Z",
+        "updatedAt": "2023-09-11T16:15:16.451Z",
+        "publishedAt": "2023-09-11T16:14:40.653Z"
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "Nom": "Marysa",
+        "Ville": null,
+        "Itineraire": null,
+        "Categorie": null,
+        "Prix_moyen": 20000,
+        "Maps_url": null,
+        "Description": null,
+        "createdAt": "2023-10-28T10:35:13.817Z",
+        "updatedAt": "2023-10-28T10:35:19.717Z",
+        "publishedAt": "2023-10-28T10:35:19.715Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 5 }
+  }
+}

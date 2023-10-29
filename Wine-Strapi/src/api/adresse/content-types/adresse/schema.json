@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adresses",
+  "info": {
+    "singularName": "adresse",
+    "pluralName": "adresses",
+    "displayName": "Adresse",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Ville": {
+      "type": "string"
+    },
+    "Itineraire": {
+      "type": "text"
+    },
+    "Categorie": {
+      "type": "enumeration",
+      "enum": [
+        "Restaurant",
+        "Bar",
+        "Hotel",
+        "Boîte de nuit",
+        "Buffet",
+        "Espace public",
+        "Espace privé"
+      ]
+    },
+    "Prix_moyen": {
+      "type": "integer"
+    },
+    "Maps_url": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "cover_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "host": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::host.host",
+      "inversedBy": "Host"
+    },
+    "Type": {
+      "displayName": "type",
+      "type": "component",
+      "repeatable": true,
+      "component": "adresse.type"
+    }
+  }
+}
